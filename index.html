@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Escape Company</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0a0a0a;color:#f5f0e7;font-family:Arial,sans-serif;line-height:1.7}
+header{padding:24px 7%;border-bottom:1px solid #493820;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.logo{font:24px Georgia,serif;letter-spacing:4px;color:#d2a45b}
+nav a{color:#eee;text-decoration:none;margin:8px;font-size:12px}
+section{padding:75px 8%;border-bottom:1px solid #29231a}
+.hero{min-height:430px;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(ellipse at 85% 30%,#5a4024,#15120e 45%,#090909 75%)}
+small,.gold{color:#d2a45b;letter-spacing:3px}
+h1,h2,h3{font-family:Georgia,serif;font-weight:normal}
+h1{font-size:clamp(45px,8vw,78px);line-height:1.1;margin:18px 0}
+h2{font-size:38px}
+p{color:#c9c3b8;max-width:680px}
+.btn{display:inline-block;background:#d2a45b;color:#111;padding:13px 22px;text-decoration:none;margin-top:18px;font-size:12px;letter-spacing:1px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:20px}
+.card{padding:22px;background:#171512;border:1px solid #413321}
+.poster{height:130px;background:linear-gradient(135deg,#72502d,#17191b);margin-bottom:20px}
+footer{padding:25px 8%;color:#aaa;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">ESCAPE<br><small>COMPANY</small></div>
+<nav><a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#films">FILMS</a><a href="#services">SERVICES</a><a href="#contact">CONTACT</a></nav>
+</header>
+<section class="hero" id="home">
+<small>INDEPENDENT FILM PRODUCTION</small>
+<h1>Real Stories.<br>Lasting <span class="gold">Impact.</span></h1>
+<p>We create cinematic experiences that move people, inspire change, and leave a mark. Welcome to Escape Company.</p>
+<a class="btn" href="#films">EXPLORE OUR FILMS ↗</a>
+</section>
+<section id="about">
+<small>ABOUT US</small>
+<h2>More Than Films.<br>We Build <span class="gold">Emotions.</span></h2>
+<p>Escape Company is an independent film production company focused on original stories, bold ideas, and authentic voices.</p>
+<p>We believe cinema can connect people, open new perspectives, and create a lasting emotional impact.</p>
+</section>
+<section id="films">
+<small>OUR FILMS</small>
+<h2>Featured Projects</h2>
+<div class="grid">
+<div class="card"><div class="poster"></div><small>FEATURE FILM</small><h3>Your Film Title</h3><p>Add your film's story here.</p></div>
+<div class="card"><div class="poster"></div><small>FEATURE FILM</small><h3>Project Two</h3><p>Introduce another cinematic project.</p></div>
+<div class="card"><div class="poster"></div><small>SHORT FILM</small><h3>Project Three</h3><p>Showcase a short film or documentary.</p></div>
+</div>
+</section>
+<section id="services">
+<small>WHAT WE DO</small>
+<h2>From Concept to <span class="gold">Screen.</span></h2>
+<div class="grid">
+<div class="card"><h3>Film Production</h3><p>Developing original film projects from concept to completion.</p></div>
+<div class="card"><h3>Creative Development</h3><p>Story development, screenwriting, and creative collaboration.</p></div>
+<div class="card"><h3>Visual Storytelling</h3><p>Creating memorable cinematic worlds and powerful stories.</p></div>
+</div>
+</section>
+<section id="contact">
+<small>LET'S WORK TOGETHER</small>
+<h2>Have a Story to Tell?</h2>
+<p>We welcome creative ideas, new collaborations, and exciting film projects.</p>
+<a class="btn" href="mailto:hello@escapecompany.com">CONTACT US ↗</a>
+</section>
+<footer>© 2026 ESCAPE COMPANY. ALL RIGHTS RESERVED.</footer>
+</body>
+</html>

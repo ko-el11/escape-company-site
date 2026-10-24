@@ -275,6 +275,174 @@ footer span {
   </section>
 
   <section class="services" id="services">
+    
+<style>
+.artists-section {
+  padding: 75px 0;
+  background: #0b1117;
+  color: #edf4f8;
+  border-top: 1px solid #a9c8dc33;
+}
+.artists-section .artists-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.artists-section .eyebrow {
+  color: #a9c8dc;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.artists-section h2,
+.artist-card h3 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+.artists-section h2 {
+  font-size: clamp(34px, 5vw, 49px);
+  margin: 10px 0;
+}
+.artists-intro {
+  color: #b7c7d2;
+}
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+.artist-card {
+  border: 1px solid #a9c8dc33;
+  background: #111b24;
+  overflow: hidden;
+}
+.artist-card img {
+  display: block;
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  object-position: center 30%;
+}
+.artist-content {
+  padding: 25px;
+}
+.artist-card h3 {
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+.artist-skills {
+  color: #a9c8dc;
+  font-size: 10px;
+  line-height: 1.9;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+.artist-bio {
+  color: #c5d2dc;
+  font-size: 14px;
+}
+.artist-quote {
+  border-left: 2px solid #9bbbd0;
+  padding: 14px 0 14px 17px;
+  margin-top: 22px;
+  color: #b7cbd9;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+}
+.artist-quote cite {
+  display: block;
+  margin-top: 12px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #a9c8dc;
+}
+@media (max-width: 700px) {
+  .artists-section { padding: 55px 0; }
+  .artists-grid { grid-template-columns: 1fr; }
+  .artist-card img { height: 360px; }
+  .artist-content { padding: 21px; }
+}
+</style>
+
+<section class="artists-section" id="artists">
+  <div class="wrap">
+    <div class="artists-heading">
+      <p class="eyebrow">Meet Our Talent</p>
+      <h2>The Faces Behind the Stories</h2>
+      <p class="artists-intro">
+        Meet the talent bringing our stories to life.
+      </p>
+    </div>
+
+    <div class="artists-grid">
+      <article class="artist-card">
+        <img src="IMG_5896.jpeg" alt="Milica">
+        <div class="artist-content">
+          <h3>Milica</h3>
+          <div class="artist-skills">
+            ACTRESS · RHYTHMIC GYMNAST · PIANIST ·
+            MODEL · EQUESTRIAN SPORTS
+          </div>
+          <p class="artist-bio">
+            Milica is a charismatic and vibrant young actress
+            whose positive energy brings warmth to every set.
+            Known for her quick wit and playful sense of humour,
+            she loves making the cast and crew laugh. Yet when
+            the cameras start rolling, she knows how to focus
+            and deliver emotionally compelling performances.
+          </p>
+          <p class="artist-bio">
+            Having been involved in acting from a very young
+            age, Milica has developed a natural understanding
+            of the craft — something that shines through in her work.
+          </p>
+          <blockquote class="artist-quote">
+            “I absolutely love the filmmaking process. I find
+            it incredibly fascinating to watch everything
+            gradually come together and turn into a truly
+            amazing story — especially knowing that you're
+            part of creating it!”
+            <cite>— MILICA</cite>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="artist-card">
+        <img src="IMG_8635.jpeg" alt="Alice">
+        <div class="artist-content">
+          <h3>Alice</h3>
+          <div class="artist-skills">
+            ASPIRING ACTRESS · RHYTHMIC GYMNAST ·
+            TENNIS PLAYER · ASPIRING MODEL
+          </div>
+          <p class="artist-bio">
+            Alice is a kind, friendly, and thoughtful young
+            actress who brings a calm and welcoming presence
+            to the set. Her natural connection with her fellow
+            cast members, including Milica, creates an atmosphere
+            where creativity and collaboration can thrive.
+          </p>
+          <p class="artist-bio">
+            Although Alice is at the beginning of her acting
+            journey, she already shows a wonderful ability
+            to immerse herself in her roles. We are excited
+            to see her grow, explore new challenges, and
+            continue developing her craft.
+          </p>
+          <blockquote class="artist-quote">
+            “I really enjoy being part of this project and
+            working with such a friendly team. This is my
+            first acting project, and I'm so happy that this
+            is the one I get to begin my journey with!”
+            <cite>— ALICE</cite>
+          </blockquote>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
     <p class="eyebrow">What We Do</p>
     <h2>From Concept to <span>Screen.</span></h2>
     <div class="grid">

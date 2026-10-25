@@ -208,40 +208,6 @@ footer span {
   }
 }
 </style>
-  
-/* Smooth animations */
-html {
-  scroll-behavior: smooth;
-}
-
-.film-card,
-.service {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.film-card:hover,
-.service:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 28px #0003;
-}
-
-.btn {
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    scroll-behavior: auto !important;
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
-}
 </head>
 <body>
 
